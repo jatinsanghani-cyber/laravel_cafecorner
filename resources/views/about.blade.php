@@ -87,7 +87,8 @@
                         to relax, connect, and enjoy quality coffee.
                     </p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, repudiandae?
+                        We believe great coffee is about more than taste. It is about comfort, connection,
+                        and creating memorable experiences with every visit.
                     </p>
                 </div>
 
@@ -100,12 +101,14 @@
                 <div class="col-lg-4 py-0 py-lg-5">
                     <h1 class="mb-3">Our Vision</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quam, modi mollitia eum eligendi minima. Tenetur repudiandae quos quo. Quos, eos eligendi!
+                        Our vision is to become a place where coffee brings people closer.
+                        We aim to serve consistently high-quality coffee while creating
+                        a warm, friendly, and inspiring environment.
                     </p>
 
-                    <h5><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet.</h5>
-                    <h5><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet.</h5>
-                    <h5><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet.</h5>
+                    <h5><i class="fa fa-check text-primary mr-3"></i>Serve quality coffee with passion</h5>
+                    <h5><i class="fa fa-check text-primary mr-3"></i>Create a welcoming atmosphere</h5>
+                    <h5><i class="fa fa-check text-primary mr-3"></i>Build strong community connections</h5>
                 </div>
 
             </div>
@@ -116,7 +119,9 @@
                     <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Mission</h4>
                     <h1 class="display-4 mb-4">What Drives Us</h1>
                     <p class="px-lg-5">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quibusdam provident ab quo ducimus laudantium natus aspernatur nihil rerum, nostrum laborum explicabo? Architecto sunt animi quidem blanditiis ullam mollitia nobis!
+                        Our mission is to deliver exceptional coffee experiences through quality ingredients,
+                        skilled preparation, and genuine hospitality. We strive to maintain consistency,
+                        care, and creativity in everything we serve, making every visit enjoyable and memorable.
                     </p>
                 </div>
             </div>
