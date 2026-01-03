@@ -81,7 +81,7 @@
                     <img class="img-fluid mb-4" src="{{ asset('img/service-1.jpg') }}" alt="">
                     <h4 class="mb-3">Best Coffee Flavors</h4>
                     <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi earum unde odio, temporibus eius.
+                       changed
                     </p>
                     
                 </div>
