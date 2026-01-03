@@ -81,8 +81,7 @@
                     <img class="img-fluid mb-4" src="{{ asset('img/service-1.jpg') }}" alt="">
                     <h4 class="mb-3">Best Coffee Flavors</h4>
                     <p>
-                        We offer a wide variety of coffee flavors prepared by skilled baristas using carefully
-                        selected beans to ensure rich taste and perfect aroma in every cup.
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi earum unde odio, temporibus eius.
                     </p>
                     
                 </div>
@@ -92,8 +91,7 @@
                     <img class="img-fluid mb-4" src="{{ asset('img/service-2.jpg') }}" alt="">
                     <h4 class="mb-3">Fresh Coffee Beans</h4>
                     <p>
-                        Our coffee beans are sourced from trusted farms and roasted with care to maintain freshness,
-                        quality, and consistency for the best coffee experience.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum eius vero dolorem expedita tempore dignissimos ut. Quaerat necessitatibus excepturi nemo! Architecto, totam consectetur?
                     </p>
                     
                 </div>
