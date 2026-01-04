@@ -87,8 +87,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Cappuccino</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nam?</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Rich espresso topped with steamed milk foam</p>
+                            <h5 class="m-0">Rs.149.00</h5>
                         </div>
                     </div>
 
@@ -98,8 +98,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Mocha</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Espresso blended with chocolate and milk</p>
+                            <h5 class="m-0">Rs.259.00</h5>
                         </div>
                     </div>
 
@@ -109,8 +109,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Latte</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nemo?</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Smooth espresso with steamed milk</p>
+                            <h5 class="m-0">Rs.169.00</h5>
                         </div>
                     </div>
 
@@ -120,8 +120,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Americano</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, facilis?</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Bold espresso diluted with hot water</p>
+                            <h5 class="m-0">Rs.189.00</h5>
                         </div>
                     </div>
                 </div>
@@ -136,8 +136,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Iced Coffee</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id.</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Chilled brewed coffee served over ice</p>
+                            <h5 class="m-0">Rs.159.00</h5>
                         </div>
                     </div>
 
@@ -147,8 +147,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Cold Brew</h4>
-                            <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sequi.</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Slow-brewed coffee with smooth taste</p>
+                            <h5 class="m-0">Rs.179.00</h5>
                         </div>
                     </div>
 
@@ -158,8 +158,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Frappé</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, delectus.</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Blended iced coffee with creamy texture</p>
+                            <h5 class="m-0">Rs.219.00</h5>
                         </div>
                     </div>
 
@@ -169,8 +169,8 @@
                         </div>
                         <div class="col-8 col-sm-9">
                             <h4>Iced Latte</h4>
-                            <p class="m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, mollitia!</p>
-                            <h5 class="m-0">00</h5>
+                            <p class="m-0">Espresso mixed with cold milk and ice</p>
+                            <h5 class="m-0">Rs.149.00</h5>
                         </div>
                     </div>
                 </div>
