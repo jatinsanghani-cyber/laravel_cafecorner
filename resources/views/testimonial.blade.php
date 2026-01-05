@@ -67,26 +67,28 @@
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
-                <h1 class="display-4">What Our Customers</h1>
+                <h1 class="display-4">Our Customers Say</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item">
-                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-1.jpg') }}" alt="">
-                    <p class="fs-5">"Amazing coffee and atmosphere!"</p>
-                    <h4>Michael</h4>
-                    <span>Customer</span>
+                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-1.jpg') }}">
+                    <p class="fs-5">"Amazing coffee!"</p>
+                    <h4>Martha</h4>
                 </div>
                 <div class="testimonial-item">
-                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-2.jpg') }}" alt="">
-                    <p class="fs-5">"Best latte in town!"</p>
-                    <h4>Sarah</h4>
-                    <span>Customer</span>
+                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-2.jpg') }}">
+                    <p class="fs-5">"Had a very good ambient!"</p>
+                    <h4>Mikkel</h4>
                 </div>
                 <div class="testimonial-item">
-                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-3.jpg') }}" alt="">
-                    <p class="fs-5">"I love the ambience!"</p>
-                    <h4>David</h4>
-                    <span>Customer</span>
+                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-3.jpg') }}">
+                    <p class="fs-5">"Good service!"</p>
+                    <h4>Hannes</h4>
+                </div>
+                <div class="testimonial-item">
+                    <img class="img-fluid mb-4" src="{{ asset('img/testimonial-4.jpg') }}">
+                    <p class="fs-5">"Best experience!"</p>
+                    <h4>Jonas</h4>
                 </div>
             </div>
         </div>
