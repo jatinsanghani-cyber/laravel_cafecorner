@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>KOPPEE - Table Reservation</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ asset('img/favicon.ico') }}" rel="icon">
+    <link rel="icon" href="img/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,38 +32,59 @@
 
     <div class="row justify-content-center">
         <div class="col-lg-9">
+
             <form>
+
                 <div class="row">
 
                     <div class="col-md-6 form-group">
                         <label>Full Name</label>
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Enter your name">
+                        <input type="text"
+                               class="form-control bg-transparent border-primary p-3"
+                               placeholder="Enter your name"
+                               required
+                               pattern="[A-Za-z ]{3,}"
+                               title="Only letters, minimum 3 characters">
                     </div>
 
                     <div class="col-md-6 form-group">
                         <label>Phone Number</label>
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Enter phone number">
+                        <input type="tel"
+                               class="form-control bg-transparent border-primary p-3"
+                               placeholder="10 digit number"
+                               required
+                               pattern="[0-9]{10}"
+                               title="Enter 10 digit phone number">
                     </div>
 
                     <div class="col-md-6 form-group">
                         <label>Email Address</label>
-                        <input type="email" class="form-control bg-transparent border-primary p-3" placeholder="Enter email">
+                        <input type="email"
+                               class="form-control bg-transparent border-primary p-3"
+                               placeholder="Enter email"
+                               required>
                     </div>
 
                     <div class="col-md-3 form-group">
                         <label>Reservation Date</label>
-                        <input type="date" class="form-control bg-transparent border-primary p-3">
+                        <input type="date"
+                               class="form-control bg-transparent border-primary p-3"
+                               required
+                               min="<?php echo date('Y-m-d'); ?>">
                     </div>
 
                     <div class="col-md-3 form-group">
                         <label>Reservation Time</label>
-                        <input type="time" class="form-control bg-transparent border-primary p-3">
+                        <input type="time"
+                               class="form-control bg-transparent border-primary p-3"
+                               required>
                     </div>
 
                     <div class="col-md-4 form-group">
                         <label>Number of Guests</label>
-                        <select class="custom-select bg-transparent border-primary p-3">
-                            <option selected>Select guests</option>
+                        <select class="custom-select bg-transparent border-primary p-3"
+                                required>
+                            <option value="">Select guests</option>
                             <option>1 Guest</option>
                             <option>2 Guests</option>
                             <option>3 Guests</option>
@@ -74,8 +95,9 @@
 
                     <div class="col-md-4 form-group">
                         <label>Seating Preference</label>
-                        <select class="custom-select bg-transparent border-primary p-3">
-                            <option selected>Choose preference</option>
+                        <select class="custom-select bg-transparent border-primary p-3"
+                                required>
+                            <option value="">Choose preference</option>
                             <option>Indoor</option>
                             <option>Outdoor</option>
                             <option>No Preference</option>
@@ -94,19 +116,22 @@
 
                     <div class="col-12 form-group">
                         <label>Special Requests</label>
-                        <textarea class="form-control bg-transparent border-primary p-3" rows="4"
-                                  placeholder="Any special instructions (window seat, cake, wheelchair access, etc.)"></textarea>
+                        <textarea class="form-control bg-transparent border-primary p-3"
+                                  rows="4"
+                                  placeholder="Any special instructions"></textarea>
                     </div>
 
                     <div class="col-12">
-                        <button type="button"
+                        <button type="submit"
                                 class="btn btn-primary btn-block font-weight-bold py-3 mt-3">
                             Confirm Reservation
                         </button>
                     </div>
 
                 </div>
+
             </form>
+
         </div>
     </div>
 </div>
