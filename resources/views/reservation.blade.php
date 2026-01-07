@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="col-md-3 form-group">
-                        <label>Reservation Date.</label>
+                        <label>Reservation Date</label>
                         <input type="date" class="form-control bg-transparent border-primary p-3">
                     </div>
 
