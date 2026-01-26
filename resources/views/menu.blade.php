@@ -23,34 +23,79 @@
 
 <body>
 
-    <!-- Navbar -->
-    <div class="container-fluid p-0 nav-bar">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a href="/" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">KOPPEE</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto p-4">
-                    <a href="/" class="nav-item nav-link">Home</a>
-                    <a href="/about" class="nav-item nav-link">About</a>
-                    <a href="/service" class="nav-item nav-link">Service</a>
-                    <a href="/menu" class="nav-item nav-link active">Menu</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="/reservation" class="dropdown-item">Reservation</a>
-                            <a href="/testimonial" class="dropdown-item">Testimonial</a>
-                        </div>
+<!-- Navbar Start -->
+<div class="container-fluid p-0 nav-bar">
+    <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+        <a href="/" class="navbar-brand px-lg-4 m-0">
+            <h1 class="m-0 display-4 text-uppercase text-white">KOPPEE</h1>
+        </a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto p-4 align-items-lg-center"
+                 style="font-size:18px; font-weight:500;">
+
+                <a href="/" class="nav-item nav-link">Home</a>
+                <a href="/about" class="nav-item nav-link">About</a>
+                <a href="/service" class="nav-item nav-link">Service</a>
+                <a href="/menu" class="nav-item nav-link">Menu</a>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu text-capitalize">
+                        <a href="/reservation" class="dropdown-item">Reservation</a>
+                        <a href="/testimonial" class="dropdown-item">Testimonial</a>
                     </div>
-                    <a href="/contact" class="nav-item nav-link">Contact</a>
                 </div>
+
+                <a href="/contact" class="nav-item nav-link">Contact</a>
+
+                {{-- AUTH PART --}}
+                @guest
+                    <a href="/login"
+                       class="btn ml-lg-4 mt-2 mt-lg-0"
+                       style="background:#FFD27F; color:#2d1c14; font-weight:600;">
+                        Login
+                    </a>
+
+                    <a href="/register"
+                       class="btn ml-lg-2 mt-2 mt-lg-0"
+                       style="background:#DA9F5B; color:white; font-weight:600;">
+                        Sign Up
+                    </a>
+                @endguest
+
+                @auth
+                    <span class="text-white ml-lg-4 mr-3">
+                        Hi, {{ auth()->user()->name }}
+                    </span>
+
+                    <a href="/my-bookings"
+                       class="btn ml-lg-2 mt-2 mt-lg-0"
+                       style="background:#DA9F5B; color:white; font-weight:600;">
+                        My Bookings
+                    </a>
+
+                    <form method="POST" action="/logout" class="d-inline ml-lg-2 mt-2 mt-lg-0">
+                        @csrf
+                        <button type="submit"
+                                class="btn"
+                                style="background:#FFD27F; color:#2d1c14; font-weight:600;">
+                            Logout
+                        </button>
+                    </form>
+                @endauth
+
             </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
+
+
 
 
     <!-- Page Header -->
