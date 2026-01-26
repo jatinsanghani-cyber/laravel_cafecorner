@@ -22,10 +22,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/reservation', function () {
-    return view('reservation');
-});
-
 Route::get('/testimonial', function () {
     return view('testimonial');
 });
