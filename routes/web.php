@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ReservationController;
 
 Route::get('/', function () {
     return view('index');
@@ -39,3 +40,7 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])
     ->middleware('auth');
 
+
+     Route::post('/reservation', [ReservationController::class, 'store']);
+
+    Route::get('/my-bookings', [ReservationController::class, 'myBookings']);
