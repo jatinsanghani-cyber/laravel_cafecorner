@@ -51,3 +51,11 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/my-bookings', [ReservationController::class, 'myBookings']);
 });
+
+// Admin routes
+Route::middleware(['auth'])->group(function () {
+
+    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])
+        ->name('admin.dashboard');
+
+});
