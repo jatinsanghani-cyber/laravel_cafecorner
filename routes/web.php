@@ -40,7 +40,14 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])
     ->middleware('auth');
 
+    // Reservation routes
+Route::middleware('auth')->group(function () {
 
-     Route::post('/reservation', [ReservationController::class, 'store']);
+    Route::get('/reservation', function () {
+        return view('reservation');
+    });
+
+    Route::post('/reservation', [ReservationController::class, 'store']);
 
     Route::get('/my-bookings', [ReservationController::class, 'myBookings']);
+});
